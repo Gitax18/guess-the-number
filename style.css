@@ -94,6 +94,7 @@ body{
 }
 
 .input-number{
+    font-size: 3rem !important;
     padding: 1.4rem;
     width: 50%;
 }
@@ -108,6 +109,7 @@ body{
 
 .secondary-title{
     font-size: 3.6rem;
+    text-align: center;
 }
 
 .score-container{
