@@ -91,22 +91,24 @@ checkBtn.addEventListener('click', function (){
 
 // add click event to restart game 
 restartBtn.addEventListener('click', function (){
+    // setting score back to 10 and new secret number
     curScore = 10
+    randomSecretNumber = Math.trunc(Math.random()*20)+1
 
+    // setting body color to default
     body.style.backgroundImage = 'none'
     body.style.backgroundColor = '#1b1c1e';
 
+    // setting default content
     secretNum.textContent = '?'
     userInput.value = ''
-
-    score.textContent = curScore
-    console.log(typeof score.textContent, score.textContent)
-    
+    score.textContent = curScore    
     messageText.textContent = '🤔 Start guessing...'
 
+    // enabling check button and input field
     checkBtn.disabled = false
-        checkBtn.style.opacity = '1'
-        userInput.disabled = false
-        userInput.style.opacity = '1'
+    checkBtn.style.opacity = '1'
+    userInput.disabled = false
+    userInput.style.opacity = '1'
 
 })
