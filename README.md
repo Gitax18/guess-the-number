@@ -23,6 +23,7 @@ The project has the following structure:
 
 - `index.html`: This is the main HTML file that displays the game interface and includes the necessary elements and styles.
 - `style.css`: This file contains the CSS styles for the game interface, such as colors, layout, and typography.
+- `media.css`: This file contains the CSS media queries for responsiveness.
 - `script.js`: This file contains the JavaScript code that handles the game logic, including generating a random number, validating user guesses, and providing feedback. 🧠
 
 ## Dependencies 📦
